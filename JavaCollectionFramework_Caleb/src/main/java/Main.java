@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         
         /* 
-            There is two ways to save and retrieve data in collection
+            There is two ways to save and retrieve data in collections
                 first one: Stack
                             means first one in, last one out 
                 second one: Quoe 
