@@ -5,9 +5,18 @@ public class Main {
         boolean booleanArray[] = {true, false, true, false, true};
         String stringArray[] = {"Ahmed", "bader", "nasser"};
         
-        System.out.println(integerArray[1]);
-        System.out.println(booleanArray[1]);
-        System.out.println(stringArray[1]);
-
+        for(int num: integerArray){
+            System.out.print(" "+num);
+        }
+        System.out.println("");
+        for(boolean boo: booleanArray){
+            System.out.print(" "+boo);
+        }
+        System.out.println("");
+        for(String str: stringArray){
+            System.out.print(" "+str);
+        }
+        
+ 
     }
 }
